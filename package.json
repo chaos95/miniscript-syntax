@@ -1,0 +1,26 @@
+{
+    "name": "miniscript",
+    "displayName": "MiniScript",
+    "description": "MiniScript is a 3rd party scripting language asset for Unity",
+    "version": "0.0.1",
+    "publisher": "Copycat",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "miniscript",
+            "aliases": ["MiniScript", "miniscript"],
+            "extensions": ["ms"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "miniscript",
+            "scopeName": "source.miniscript",
+            "path": "./syntaxes/miniscript.tmLanguage.json"
+        }]
+    }
+}
