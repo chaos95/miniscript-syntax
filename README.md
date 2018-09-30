@@ -17,9 +17,8 @@ I've set this up to use the extension ms.
 
 To get your extension running in VS Code, copy the entire miniscript-syntax folder under your local extensions folder:
 
-Windows: %USERPROFILE%\.vscode\extensions
-
-macOS/Linux: $HOME/.vscode/extensions
+- Windows: %USERPROFILE%\.vscode\extensions
+- macOS/Linux: $HOME/.vscode/extensions
 
 To check it's working, try opening "Example1.ms" from the examples folder.
 

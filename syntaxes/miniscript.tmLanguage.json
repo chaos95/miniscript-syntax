@@ -159,7 +159,7 @@
 			"name": "constant.other.placeholder.miniscript"
 		},
 		{
-			"match": "\\b(break|continue|else|end|for|if|in|new|return|repeat|then|while|__isa)\\b",
+			"match": "\\b(break|continue|else|end for|end function|end while|for|if|in|new|return|repeat|then|while|__isa)\\b",
 			"name": "keyword.control.miniscript"
 		},
 		{
