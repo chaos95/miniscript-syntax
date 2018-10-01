@@ -9,6 +9,8 @@ or may not work in other editors too!
 
 Provides basic syntax highlighting for VS Code.
 
+![Example Screenshot of MiniScript Highlighting](images/screenshot.png "Example Screenshot of MiniScript Highlighting")
+
 ## Extension Settings
 
 I've set this up to use the extension ms.
