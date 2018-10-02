@@ -2,7 +2,7 @@
 
 MiniScript is a 3rd party scripting language for Unity.
 
-This repository provides syntax highlighting files for Microsoft's VS Code (https://code.visualstudio.com/). It may
+This repository provides syntax highlighting files for Microsoft's VS Code (<https://code.visualstudio.com/>). It may
 or may not work in other editors too!
 
 ## Features
