@@ -26,7 +26,10 @@ To check it's working, try opening "Example1.ms" from the examples folder.
 
 ### Want more info? ###
 
-The MiniScript forum is here:
-https://forum.unity.com/threads/miniscript-lightweight-scripting-language-for-your-game.373853/
+The source repository for this highlighter is here:
+<https://bitbucket.org/colinmac/miniscript-syntax/src/>
 
-For info about this syntax highlighter, contact Colin: colin@copycat.lol
+The MiniScript forum is here:
+<https://forum.unity.com/threads/miniscript-lightweight-scripting-language-for-your-game.373853/>
+
+For info about this syntax highlighter, contact Colin: <colin@copycat.lol>
