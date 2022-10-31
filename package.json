@@ -1,26 +1,47 @@
 {
-    "name": "miniscript",
-    "displayName": "MiniScript",
-    "description": "MiniScript is a 3rd party scripting language asset for Unity",
-    "version": "0.0.1",
-    "publisher": "Copycat",
-    "engines": {
-        "vscode": "^1.27.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "miniscript",
-            "aliases": ["MiniScript", "miniscript"],
-            "extensions": ["ms"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "miniscript",
-            "scopeName": "source.miniscript",
-            "path": "./syntaxes/miniscript.tmLanguage.json"
-        }]
-    }
+	"name": "miniscript",
+	"displayName": "MiniScript",
+	"description": "MiniScript is a 3rd party scripting language asset for Unity",
+	"version": "0.0.1",
+	"publisher": "chaos95",
+	"repository": "https://github.com/chaos95/miniscript-syntax",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "miniscript",
+				"aliases": [
+					"MiniScript",
+					"miniscript"
+				],
+				"extensions": [
+					"ms"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "miniscript",
+				"scopeName": "source.miniscript",
+				"path": "./syntaxes/miniscript.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a0fcab27-f0b6-4b41-a59c-4827b31d92a2",
+		"publisherDisplayName": "Morgan Lokhorst",
+		"publisherId": "ec7cb749-5f48-4b26-b9b4-3d002822cd08",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1667208980730,
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"preRelease": false
+	}
 }
