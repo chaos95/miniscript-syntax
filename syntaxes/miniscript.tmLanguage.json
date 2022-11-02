@@ -162,7 +162,7 @@
 			"name": "constant.other.placeholder.miniscript"
 		},
 		{
-			"match": "\\b(break|continue|else|end for|end function|end if|end while|for|if|in|new|return|repeat|then|while|isa)\\b",
+			"match": "\\b(break|continue|else|end for|end function|end if|end while|for|if|in|new|return|repeat|then|while)\\b",
 			"name": "keyword.control.miniscript"
 		},
 		{
@@ -182,7 +182,7 @@
 			"name": "support.function.library.miniscript"
 		},
 		{
-			"match": "\\b(and|or|not)\\b",
+			"match": "\\b(and|or|not|isa)\\b",
 			"name": "keyword.operator.miniscript"
 		},
 		{
