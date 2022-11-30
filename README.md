@@ -8,13 +8,14 @@ This repository contains an extension for Microsoft's VS Code (<https://code.vis
 
 Provides basic syntax highlighting for VS Code.
 
-![Example Screenshot of MiniScript Highlighting](images/screenshot.png "Example Screenshot of MiniScript Highlighting")
+![Example Screenshot of MiniScript Highlighting](images/screenshot.png 'Example Screenshot of MiniScript Highlighting')
 
 ## Installation
 
 The easiest way to get the extension is to search 'miniscript' in VS Code's extension tab, or install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=chaos95.miniscript). If you would like to do local development on the extension, or if you prefer not to install from the marketplace, you can do a local install from this git repository instead.
 
 ### Install from git repository
+
 To get your extension running in VS Code, checkout the entire miniscript-syntax folder under your local extensions folder:
 
 - Windows: %USERPROFILE%\.vscode\extensions
@@ -23,11 +24,15 @@ To get your extension running in VS Code, checkout the entire miniscript-syntax 
 To check it's working, try opening "Example1.ms" from the examples folder.
 
 ## Contributing
+
 If you would like to contribute ideas, code, bug reports etc, please do. I am pretty busy with 4 kids and a full-time job, and maintaining this extension in my (very limited) spare time, but I will endeavour to respond to any issues/PRs as quickly as possible.
+
 ### Reporting bugs, requesting features, etc
+
 Bug/issue reports and feature requests are welcome! Please take a look at the [issues](https://github.com/chaos95/miniscript-syntax/) on the github repository and feel free to add your input if someone else has already reported the same thing, or create a new issue if you can't find one already!
 
 ### Pull requests
+
 Pull requests are also very welcome! At some point we will hopefully have a more in-depth contributor guide as well.
 
 ### Want more info?
