@@ -1,2 +1,6 @@
 node_modules
 *.vsix
+.idea
+.vscode-test
+dist
+out
