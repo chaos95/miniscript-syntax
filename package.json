@@ -1,7 +1,7 @@
 {
   "name": "miniscript",
   "displayName": "MiniScript",
-  "description": "MiniScript is a 3rd party scripting language asset for Unity",
+  "description": "MiniScript is a simple, elegant language for embedding or learning to program.",
   "version": "0.0.3",
   "publisher": "chaos95",
   "repository": "https://github.com/chaos95/miniscript-syntax",
