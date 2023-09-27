@@ -71,11 +71,7 @@
         }
       },
       "name": "string.quoted.single.miniscript",
-      "patterns": [
-        {
-          "include": "#escaped_char"
-        }
-      ]
+      "patterns": []
     },
     {
       "begin": "\"",
@@ -91,11 +87,7 @@
         }
       },
       "name": "string.quoted.double.miniscript",
-      "patterns": [
-        {
-          "include": "#escaped_char"
-        }
-      ]
+      "patterns": []
     },
     {
       "begin": "(?<=\\.cdef)\\s*(\\[(=*)\\[)",
@@ -199,29 +191,5 @@
     }
   ],
   "repository": {
-    "escaped_char": {
-      "patterns": [
-        {
-          "match": "\\\\[abfnrtvz\\\\\"'\\n]",
-          "name": "constant.character.escape.miniscript"
-        },
-        {
-          "match": "\\\\\\d{1,3}",
-          "name": "constant.character.escape.byte.miniscript"
-        },
-        {
-          "match": "\\\\x[0-9A-Fa-f][0-9A-Fa-f]",
-          "name": "constant.character.escape.byte.miniscript"
-        },
-        {
-          "match": "\\\\u\\{[0-9A-Fa-f]+\\}",
-          "name": "constant.character.escape.unicode.miniscript"
-        },
-        {
-          "match": "\\\\.",
-          "name": "invalid.illegal.character.escape.miniscript"
-        }
-      ]
-    }
   }
 }
