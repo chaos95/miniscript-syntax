@@ -3,14 +3,15 @@
   "displayName": "MiniScript",
   "description": "MiniScript is a simple, elegant language for embedding or learning to program.",
   "version": "0.0.4",
-  "publisher": "chaos95",
+  "publisher": "juh9870",
   "repository": "https://github.com/chaos95/miniscript-syntax",
   "engines": {
     "vscode": "^1.27.0"
   },
   "categories": [
     "Programming Languages",
-    "Formatters"
+    "Formatters",
+    "Snippets"
   ],
   "activationEvents": [
     "onLanguage:miniscript"
@@ -39,6 +40,12 @@
         "language": "miniscript",
         "scopeName": "source.miniscript",
         "path": "./syntaxes/miniscript.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "miniscript",
+        "path": "./snippets.json"
       }
     ]
   },
