@@ -17,7 +17,7 @@ suite('Miniscript formatting Test Suite', () => {
   }
 
   const whitespaces = [' ', '\t'];
-  const ops = ['+', '- ', '*', '/', '%', '^', '>', '<', '=', '==', '!=', '<=', '>='];
+  const ops = ['+', '- ', '*', '/', '%', '^', '>', '<', '=', '==', '!=', '<=', '>=', '*=', '/=', '+=', '-=', '^='];
   const whiteOrEmptyArb = fc.stringOf(fc.constantFrom(...whitespaces), { minLength: 0 });
   const whiteArb = fc.stringOf(fc.constantFrom(...whitespaces), { minLength: 1 });
   const opsArb = fc.constantFrom(...ops);

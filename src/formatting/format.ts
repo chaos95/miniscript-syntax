@@ -227,7 +227,7 @@ function processCode(code: string) {
       // Space after comma and :
       .replace(/\s*([,])\s*/g, '$1 ')
       // Space around operators except for minus
-      .replace(/\s*([<>=!]=|[+*/%^<>=])\s*/g, ' $1 ')
+      .replace(/\s*([+*/%^<>=]=?|[!-]=)\s*/g, ' $1 ')
       // Minus followed by unary minus
       .replace(/--/g, '- -')
       // Unary minus
