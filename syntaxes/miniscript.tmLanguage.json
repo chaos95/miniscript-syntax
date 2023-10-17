@@ -58,22 +58,6 @@
       "name": "constant.numeric.float.miniscript"
     },
     {
-      "begin": "'",
-      "beginCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.begin.miniscript"
-        }
-      },
-      "end": "'",
-      "endCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.end.miniscript"
-        }
-      },
-      "name": "string.quoted.single.miniscript",
-      "patterns": []
-    },
-    {
       "begin": "\"",
       "beginCaptures": {
         "0": {
@@ -90,84 +74,16 @@
       "patterns": []
     },
     {
-      "begin": "(?<=\\.cdef)\\s*(\\[(=*)\\[)",
-      "beginCaptures": {
-        "0": {
-          "name": "string.quoted.other.multiline.miniscript"
-        },
-        "1": {
-          "name": "punctuation.definition.string.begin.miniscript"
-        }
-      },
-      "contentName": "meta.embedded.miniscript",
-      "end": "(\\]\\2\\])",
-      "endCaptures": {
-        "0": {
-          "name": "string.quoted.other.multiline.miniscript"
-        },
-        "1": {
-          "name": "punctuation.definition.string.end.miniscript"
-        }
-      },
-      "patterns": [
-        {
-          "include": "source.c"
-        }
-      ]
-    },
-    {
-      "begin": "(?<!--)\\[(=*)\\[",
-      "beginCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.begin.miniscript"
-        }
-      },
-      "end": "\\]\\1\\]",
-      "endCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.end.miniscript"
-        }
-      },
-      "name": "string.quoted.other.multiline.miniscript"
-    },
-    {
-      "captures": {
-        "1": {
-          "name": "keyword.control.goto.miniscript"
-        },
-        "2": {
-          "name": "constant.other.placeholder.miniscript"
-        }
-      },
-      "match": "\\b(goto)\\s+([a-zA-Z_][a-zA-Z0-9_]*)"
-    },
-    {
-      "captures": {
-        "1": {
-          "name": "punctuation.definition.label.begin.miniscript"
-        },
-        "2": {
-          "name": "punctuation.definition.label.end.miniscript"
-        }
-      },
-      "match": "(::)[a-zA-Z_][a-zA-Z0-9_]*(::)",
-      "name": "constant.other.placeholder.miniscript"
-    },
-    {
       "match": "\\b(break|continue|else|end for|end function|end if|end while|for|if|in|new|return|repeat|then|while)\\b",
       "name": "keyword.control.miniscript"
     },
     {
-      "match": "(?<![^.]\\.|:)\\b(false|null|true|_G|_VERSION|math\\.(pi|huge))\\b|(?<![.])\\.{3}(?!\\.)",
+      "match": "\\b(false|null|true)\\b",
       "name": "constant.language.miniscript"
     },
     {
       "match": "(?<![^.]\\.|:)\\b(self)\\b",
       "name": "variable.language.self.miniscript"
-    },
-    {
-      "match": "(?<![^.]\\.|:)\\b(assert|collectgarbage|dofile|error|getfenv|getmetatable|ipairs|loadfile|loadstring|module|next|pairs|pcall|print|rawequal|rawget|rawset|require|select|setfenv|setmetatable|tonumber|tostring|type|unpack|xpcall)\\b(?=\\s*(?:[({\"']|\\[\\[))",
-      "name": "support.function.miniscript"
     },
     {
       "match": "(?<![^.]\\.|:)\\b(listMap\\.(indexOf|indexes|values|sum|shuffle|remove|range|slice|push|pop|pull)|string\\.(char|hasIndex|indexOf|len|lower|remove|upper)|table\\.(concat|insert|maxn|remove|sort)|math\\.(abs|acos|asin|atan|cos|pi|r|rnd|sign|sin|sqrt|tan)|io\\.(close|flush|input|lines|open|output|popen|read|tmpfile|type|write)|os\\.(clock|date|difftime|execute|exit|getenv|remove|rename|setlocale|time|tmpname)|package\\.(cpath|loaded|loadlib|path|preload|seeall))\\b(?=\\s*(?:[({\"']|\\[\\[))",
