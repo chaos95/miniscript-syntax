@@ -1,0 +1,7 @@
+out/
+dist/
+**/*.d.ts
+node_modules
+.idea
+.vscode
+.vscode-test
